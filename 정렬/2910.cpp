@@ -21,7 +21,7 @@ int main(void){
 
     cin >> n >> c;
     
-    for(int i=0; i< n; i++){
+    for(int i=0; i< n; i++){ 
         int num;
         cin >> num;
         m[num]++;
