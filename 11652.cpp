@@ -13,7 +13,7 @@ int main(void){
     cin >> n;
     for(int i= 0; i < n; i++){
         cin >> arr[i];
-    }
+    } 
     sort(arr,arr+n);
 
     cnt =0;
