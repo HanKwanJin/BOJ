@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-
+ 
 int n;
 string s[51];
 bool cmp(string& a, string& b){
