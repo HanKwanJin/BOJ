@@ -33,7 +33,7 @@ int main(void){
         
         dist[curY][curX] = 0;
         
-
+ 
         queue<pair<int,int>> q;
         q.push({curY, curX});
 
