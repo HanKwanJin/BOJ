@@ -15,7 +15,7 @@ int main(void){
         cin >> v[i];
         reverse(v[i].begin(), v[i].end());
         a.push_back(stoll(v[i]));
-    }
+    } 
 
     sort(a.begin(), a.end());
 
