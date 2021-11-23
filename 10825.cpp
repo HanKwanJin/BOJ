@@ -15,7 +15,7 @@ bool cmp(tuple<string,int,int,int> a, tuple<string,int,int,int> b){
     if(a2 != b2) return a2 > b2;
     else if(a2 == b2 && a3 == b3 && a4 == b4) return a1 < b1;
     else if(a2 == b2 && a3 == b3) return a4 > b4;
-    else if(a2 == b2) return a3 < b3;
+    else if(a2 == b2) return a3 < b3; 
     
 }
 
