@@ -3,7 +3,7 @@ using namespace std;
 
 int n,c;
 int cnt;
-vector<int> ans;
+vector<int> ans; 
 map<int,int> order; //순서 저장
 map<int,int> m; //key -> num, value -> cnt
 vector<pair<int,int>> v;
