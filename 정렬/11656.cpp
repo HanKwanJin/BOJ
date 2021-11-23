@@ -20,3 +20,4 @@ int main(void){
         cout << tmp[i] << '\n';
     }
 } 
+ 
