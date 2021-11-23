@@ -28,7 +28,7 @@ int main(void){
     int ret = -9999;
     for(int i= 1; i<= n; i++){
         ret = max(ret, d[n][i]);
-    }
+    } 
 
     cout << ret;
 
