@@ -3,7 +3,7 @@ using namespace std;
 
 int n;
 int cnt, maxCnt;
-long long maxValue = -(1ll << 62) -1;
+long long maxValue = -(1ll << 62) -1; 
 long long arr[100005];
 
 int main(void){
