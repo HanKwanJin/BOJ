@@ -3,7 +3,7 @@ using namespace std;
 
 int n;
 vector<tuple<string,int,int,int>> v;
-
+ 
 bool cmp(tuple<string,int,int,int> a, tuple<string,int,int,int> b){
     string a1,b1;
     a1[0] = tolower(a1[0]);
