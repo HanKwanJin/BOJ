@@ -1,3 +1,3 @@
 # BOJ
 Algorithm Problem Solving  
-백준 문제를 풀고 리뷰하는 공간입니다.:grinning: 
+풀었던 백준 문제들을 모아두는 곳 입니다.:grinning: 
