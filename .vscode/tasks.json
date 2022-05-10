@@ -1,0 +1,46 @@
+{
+	"version": "2.0.0",
+	"runner": "terminal",
+	"type":"shell",
+	"echoCommand": true,
+	"presentation": { "reveal":"always"},
+	"tasks": [
+		{
+			"label": "save and compile for C++",
+			"command": "g++",
+			"args": [
+				"-std=c++17",
+				"${file}",
+				"-o",
+				"${fileDirname}/${fileBasenameNoExtension}",
+			],
+			"group": "build",
+			"options": {
+				"cwd": "C:/MinGW/bin"
+			},
+			"problemMatcher": {
+				"fileLocation": [
+					"relative",
+					"${workspaceRoot}"
+				],
+				"pattern":{
+					"regexp": "^(.*):(\\d+):(\\d+):\\s+(warning error):\\s+(.*)$",
+					"file": 1,
+					"line": 2,
+					"column": 3,
+					"severity": 4,
+					"message": 5
+				}
+			},
+			"detail": "컴파일러: C:/MinGW/bin/g++.exe"
+		},
+		{
+			"label": "execute",
+			"command":"cmd",
+			"group": "test",
+			"args": [
+				"/C", "${fileDirname}\\${fileBasenameNoExtension}"
+			]
+		}
+	]
+}
