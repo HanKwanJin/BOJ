@@ -1,7 +1,4 @@
 {
-  "C_Cpp_Runner.cCompilerPath": "C:/MinGW/bin/gcc.exe",
-  "C_Cpp_Runner.cppCompilerPath": "C:/MinGW/bin/g++.exe",
-  "C_Cpp_Runner.debuggerPath": "C:/MinGW/bin/gdb.exe",
   "C_Cpp_Runner.warnings": [
     "-Wall",
     "-Wextra",
@@ -11,8 +8,26 @@
   "C_Cpp_Runner.includePaths": [],
   "C_Cpp_Runner.linkerArgs": [],
   "C_Cpp_Runner.cStandard": "",
-  "C_Cpp_Runner.cppStandard": "",
+  "C_Cpp_Runner.cppStandard": "c++17",
   "C_Cpp_Runner.excludeSearch": [],
   "C_Cpp_Runner.enableWarnings": true,
-  "C_Cpp_Runner.warningsAsError": false
+  "C_Cpp_Runner.warningsAsError": false,
+  "C_Cpp_Runner.cCompilerPath": "C:/MinGW/bin/gcc.exe",
+  "C_Cpp_Runner.cppCompilerPath": "C:/MinGW/bin/g++.exe",
+  "C_Cpp_Runner.debuggerPath": "gdb",
+  "files.associations": {
+    "iostream": "cpp",
+    "tuple": "cpp",
+    "*.tcc": "cpp",
+    "algorithm": "cpp",
+    "random": "cpp",
+    "regex": "cpp",
+    "bitset": "cpp",
+    "istream": "cpp",
+    "numeric": "cpp",
+    "streambuf": "cpp",
+    "type_traits": "cpp",
+    "valarray": "cpp",
+    "iomanip": "cpp"
+  }
 }

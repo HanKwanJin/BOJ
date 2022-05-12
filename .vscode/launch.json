@@ -1,18 +1,21 @@
 {
   "version": "0.2.0",
   "configurations": [
+    
     {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
       "request": "launch",
-      "args": [],
+      "args": [
+        ""
+      ],
       "stopAtEntry": false,
-      "cwd": "c:\\Users\\Administrator\\Documents\\GitHub\\BOJ",
+      "cwd": "c:/Users/HanKwanJin/Desktop/algorithm",
       "environment": [],
-      "program": "c:\\Users\\Administrator\\Documents\\GitHub\\BOJ\\build\\Debug\\outDebug",
+      "program": "c:/Users/HanKwanJin/Desktop/algorithm/build/Debug/outDebug",
       "internalConsoleOptions": "openOnSessionStart",
       "MIMode": "gdb",
-      "miDebuggerPath": "C:/MinGW/bin/gdb.exe",
+      "miDebuggerPath": "gdb",
       "externalConsole": false,
       "setupCommands": [
         {
