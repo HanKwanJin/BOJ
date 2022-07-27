@@ -38,7 +38,7 @@ int main(void){
 	cin.tie(0);
 	cout.tie(0);
 	cin >> n >> m >> h;
-	for(int i=0; i<n; i++){
+	for(int i=0; i < m; i++){
 		cin >> a >> b;
 		vst[a][b] = 1;
 	}
